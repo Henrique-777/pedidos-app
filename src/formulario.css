@@ -1,7 +1,7 @@
 
 /* Container do formulário */
 .form-container {
-  background: rgba(255, 255, 255, 0.3);
+  background: rgba(236, 236, 236, 0.3);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 16px;
@@ -9,6 +9,11 @@
   box-shadow: var(--shadow-md);
   padding: 1.5rem;
   margin-bottom: 2rem;
+}
+
+/* Input do formulário */
+.modern-input {
+  background-color: white;
 }
 
 /* Título do formulário */
