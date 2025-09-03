@@ -410,7 +410,7 @@ export default function App() {
           <div style={{ position: 'relative', marginBottom: '1rem'}}>
             <input 
             type="text" 
-            placeholder="00.000.000/000-00"
+            placeholder="CNPJ"
             className={`modern-input ${cnpjErro ? 'error' : ''}`}
             value={cnpj}
             onChange={handleCNPJChange}
