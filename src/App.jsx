@@ -6,7 +6,8 @@ import autoTable from "jspdf-autotable";
 
 const produtosMock = [
   { 
-    id: 1, 
+    id: 1,
+    codigo: "1199", 
     nome: "MICRO ASPERSOR 50 L/H BRANCO", 
     desc: "Embalagem com 500 unidades", 
     img: "img/micro-branco.webp",
@@ -15,8 +16,9 @@ const produtosMock = [
   },
 
   { 
-    id: 2, 
-    nome: "MICRO ASPERSOR 75 L/H MARROM", 
+    id: 2,
+    codigo: "82",
+    nome: "MICRO ASPERSOR 75 L/H MARROM",
     desc: "Embalagem com 500 unidades", 
     img: "img/micro-marrom.webp",
     undPorEmbalagem: 500,
@@ -24,8 +26,9 @@ const produtosMock = [
   },
 
   {
-    id: 3, 
-    nome: "MICRO ASPERSOR 100 L/H LARANJA", 
+    id: 3,
+    codigo: "81",
+    nome: "MICRO ASPERSOR 100 L/H LARANJA",
     desc: "Embalagem com 500 unidades", 
     img: "img/micro-laranja.webp",
     undPorEmbalagem: 500,
@@ -33,7 +36,8 @@ const produtosMock = [
   },
 
   {
-    id: 4, 
+    id: 4,
+    codigo: "80", 
     nome: "MICRO ASPERSOR 120 L/H AZUL", 
     desc: "Embalagem com 500 unidades", 
     img: "img/micro-azul.webp",
@@ -42,8 +46,9 @@ const produtosMock = [
   },
 
   { 
-    id: 5, 
-    nome: "ESTACA 300MM", 
+    id: 5,
+    codigo: "85",
+    nome: "ESTACA 300MM",
     desc: "Saco com 500 unidades", 
     img: "img/estaca.webp",
     undPorEmbalagem: 500,
@@ -51,16 +56,18 @@ const produtosMock = [
   },
 
   {
-    id: 6, 
+    id: 6,
+    codigo: "84",
     nome: "ESTACA 600MM", 
     desc: "Saco com 100 unidades", 
-    img: "img/micro-aspersores.webp",
+    img: "img/estaca.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
 
   { 
-    id: 7, 
+    id: 7,
+    codigo: "86",
     nome: "MICROTUBO 4/6 x 100CM COM CONECTOR", 
     desc: "500 unidades", 
     img: "img/microtubo.webp",
@@ -69,8 +76,9 @@ const produtosMock = [
   },
 
   {
-    id: 8, 
-    nome: "TAMPÃO 4/5", 
+    id: 8,
+    codigo: "87",
+    nome: "TAMPÃO 4/5",
     desc: "Embalagem com 1.000 unidades", 
     img: "img/tampao-4x5.webp",
     undPorEmbalagem: 1000,
@@ -78,7 +86,8 @@ const produtosMock = [
   },
 
   {
-    id: 9, 
+    id: 9,
+    codigo: "88",
     nome: "TAMPÃO 4/7", 
     desc: "Embalagem com 1.000 unidades", 
     img: "img/tampao-4x7.webp",
@@ -87,9 +96,10 @@ const produtosMock = [
   },
 
   {
-    id: 10, 
+    id: 10,
+    codigo: "89",
     nome: "TAMPÃO DUPLO (PLUG) 4/6", 
-    desc: "Embalagem com 1000 unidades", 
+    desc: "Embalagem com 1.000 unidades", 
     img: "img/tampao-duplo-4x6.webp",
     undPorEmbalagem: 1000,
     undMedida: "unidades"
@@ -100,7 +110,7 @@ export default function App() {
   const [busca, setBusca] = useState("");
   const [carrinho, setCarrinho] = useState({});
   const [cnpj, setCnpj] = useState("");
-  const [razao, setRazao] = useState("");
+  
   const [pagamento, setPagamento] = useState("avista");
   const [ cnpjErro, setCnpjErro] = useState("");
 
@@ -183,7 +193,7 @@ export default function App() {
         };
 
         setDadosEmpresa(dadosFormatados);
-        setRazao(dadosFormatados.razao_social);
+        
         setCnpjErro("");
       } else {
         // Segunda tentativa: ReceitaWS (backup)
@@ -206,7 +216,6 @@ export default function App() {
         };
 
         setDadosEmpresa(dadosFormatados);
-        setRazao(dadosFormatados.razao_social);
         setCnpjErro("");
         } else {
           throw new Error('CNPJ não encontrado');
@@ -346,7 +355,7 @@ export default function App() {
     const colunas = ["Código", "Descrição", "Quantidade"];
     const linhas = Object.entries(carrinho).map(([id, qtd]) => {
       const prod = produtosMock.find((p) => p.id == id);
-      return ["00", prod.nome, qtd.toLocaleString('pt-BR')];
+      return [prod.codigo, prod.nome, qtd.toLocaleString('pt-BR')];
     });
 
     autoTable(doc, {
@@ -401,7 +410,7 @@ export default function App() {
           <div style={{ position: 'relative', marginBottom: '1rem'}}>
             <input 
             type="text" 
-            placeholder="XX.XXX.XXX/XXXX-XX"
+            placeholder="00.000.000/000-00"
             className={`modern-input ${cnpjErro ? 'error' : ''}`}
             value={cnpj}
             onChange={handleCNPJChange}
@@ -450,12 +459,11 @@ export default function App() {
           
           <input 
             type = "text" 
-            placeholder = "Razão Social ou Nome Fantasia" 
+            placeholder = "Razão Social" 
             className = "modern-input"
-            value = {razao}
-            onChange={(e) => setRazao(e.target.value)}
+            value = {dadosEmpresa?.razao_social || ""}
+            onChange={(e) => setDadosEmpresa(prev => ({ ...prev, razao_social: e.target.value }))}
             style = {{ marginBottom: '1rem' }}
-            readOnly = {dadosEmpresa !== null}
           />
 
           {/* Exibir dados da empresa quando carregados */}
