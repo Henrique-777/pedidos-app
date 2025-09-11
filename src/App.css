@@ -20,7 +20,7 @@
   --gray-900: #0f172a;
   
   /* Gradientes */
-  --gradient-blue: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-blue: linear-gradient(135deg, #76a1ff 0%, #0b1572 100%);
   --gradient-bg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
   
   /* Sombras modernas */
@@ -165,7 +165,7 @@ body {
 .btn-adicionar, .btn-remover {
   width: 1.5rem;
   height: 1.5rem;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   border-radius: 50%;
   border: 2px solid rgb(100, 100, 100);
   color: rgb(100, 100, 100);
@@ -335,20 +335,71 @@ p {
   animation: fadeIn 0.6s ease-out;
 }
 
-/* Responsividade */
-@media (max-width: 768px) {
+
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 390px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+
+  /* Bordas mais suaves e padding adequado para containers glass */
   .glass,
   .glass-strong,
   .product-card,
   .cart-container {
     border-radius: 16px;
+    padding: 1rem;
   }
-  
+
+  /* Ajuste de fontes para títulos */
   h1 {
     font-size: 2rem;
   }
-  
+  h2 {
+    font-size: 1.25rem;
+  }
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  /* Inputs com padding menor para melhor encaixe */
   .modern-input {
     padding: 0.875rem 1.25rem;
+    font-size: 0.95rem;
+  }
+
+  /* Botões com toque aumentado e fonte levemente menor */
+  .btn-primary,
+  .btn-secondary {
+    padding: 0.75rem 1.25rem;
+    font-size: 0.9rem;
+  }
+
+  /* Cards de produto com padding reduzido */
+  .product-card {
+    padding: 1rem;
+  }
+
+  /* Carrinho: posição normal, margem e sem altura fixa para visibilidade adequada */
+  .cart-container {
+    position: static;
+    margin-top: 1rem;
+    max-height: none;
+    overflow: visible;
+  }
+
+  /* Botões de adicionar/remover com tamanho ajustado para toque */
+  .btn-adicionar,
+  .btn-remover {
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+  }
+
+  /* Ajuste no espaçamento dos controles de quantidade */
+  .quantity-controls {
+    gap: 0.5rem;
+    padding: 0.25rem;
   }
 }
+
