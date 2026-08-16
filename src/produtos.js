@@ -6,7 +6,7 @@ export const produtosMock = [
     codigo: "1199",
     nome: "MICRO ASPERSOR 50 L/H BRANCO",
     desc: "Embalagem com 500 unidades",
-    img: "public/micro-branco.webp",
+    img: "/micro-branco.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades",
     precoAvista: 0.55,
@@ -23,7 +23,7 @@ export const produtosMock = [
     codigo: "82",
     nome: "MICRO ASPERSOR 75 L/H MARROM",
     desc: "Embalagem com 500 unidades",
-    img: "public/micro-marrom.webp",
+    img: "/micro-marrom.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades",
     precoAvista: 0.55,
@@ -40,7 +40,7 @@ export const produtosMock = [
     codigo: "81",
     nome: "MICRO ASPERSOR 100 L/H LARANJA",
     desc: "Embalagem com 500 unidades",
-    img: "public/micro-laranja.webp",
+    img: "/micro-laranja.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades",
     precoAvista: 0.55,
@@ -57,7 +57,7 @@ export const produtosMock = [
     codigo: "80",
     nome: "MICRO ASPERSOR 120 L/H AZUL",
     desc: "Embalagem com 500 unidades",
-    img: "public/micro-azul.webp",
+    img: "/micro-azul.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades",
     precoAvista: 0.55,
@@ -74,7 +74,7 @@ export const produtosMock = [
     codigo: "85",
     nome: "ESTACA 300MM",
     desc: "Saco com 500 unidades",
-    img: "public/estaca.webp",
+    img: "/estaca.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -83,7 +83,7 @@ export const produtosMock = [
     codigo: "84",
     nome: "ESTACA 600MM",
     desc: "Saco com 100 unidades",
-    img: "public/estaca.webp",
+    img: "/estaca.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
@@ -92,7 +92,7 @@ export const produtosMock = [
     codigo: "86",
     nome: "MICROTUBO 4/6 x 100CM COM CONECTOR",
     desc: "500 unidades",
-    img: "public/microtubo.webp",
+    img: "/microtubo.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -101,7 +101,7 @@ export const produtosMock = [
     codigo: "87",
     nome: "TAMPÃO 4/5",
     desc: "Embalagem com 1.000 unidades",
-    img: "public/tampao-4x5.webp",
+    img: "/tampao-4x5.webp",
     undPorEmbalagem: 1000,
     undMedida: "unidades"
   },
@@ -110,7 +110,7 @@ export const produtosMock = [
     codigo: "88",
     nome: "TAMPÃO 4/7",
     desc: "Embalagem com 1.000 unidades",
-    img: "public/tampao-4x7.webp",
+    img: "/tampao-4x7.webp",
     undPorEmbalagem: 1000,
     undMedida: "unidades"
   },
@@ -119,7 +119,7 @@ export const produtosMock = [
     codigo: "89",
     nome: "TAMPÃO DUPLO (PLUG) 4/6",
     desc: "Embalagem com 1.000 unidades",
-    img: "public/tampao-duplo-4x6.webp",
+    img: "/tampao-duplo-4x6.webp",
     undPorEmbalagem: 1000,
     undMedida: "unidades"
   },
@@ -128,7 +128,7 @@ export const produtosMock = [
     codigo: "92",
     nome: "COLAR DE TOMADA 50MM C/ ROSCA 1' ",
     desc: "Embalagem com 25 unidades",
-    img: "public/colar-de-tomada.webp",
+    img: "/colar-de-tomada.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -137,7 +137,7 @@ export const produtosMock = [
     codigo: "91",
     nome: "COLAR DE TOMADA 75MM C/ ROSCA 1' ",
     desc: "Embalagem com 25 unidades",
-    img: "public/colar-de-tomada.webp",
+    img: "/colar-de-tomada.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -146,7 +146,7 @@ export const produtosMock = [
     codigo: "90",
     nome: "COLAR DE TOMADA 100MM C/ ROSCA 1' ",
     desc: "Embalagem com 25 unidades",
-    img: "public/colar-de-tomada.webp",
+    img: "/colar-de-tomada.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -155,7 +155,7 @@ export const produtosMock = [
     codigo: "93",
     nome: "CHULA BILABIAL 17MM",
     desc: "Embalagem com 500 unidades",
-    img: "public/chula-bilabial.webp",
+    img: "/chula-bilabial.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -164,7 +164,7 @@ export const produtosMock = [
     codigo: "94",
     nome: "CONECTOR INICIAL 16MM COM ANEL GARRA",
     desc: "Embalagem com 500 unidades",
-    img: "public/conector-inicial-anel-garra.webp",
+    img: "/conector-inicial-anel-garra.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -173,7 +173,7 @@ export const produtosMock = [
     codigo: "95",
     nome: "CONECTOR INICIAL 16MM COM ANEL LISO",
     desc: "Embalagem com 500 unidades",
-    img: "public/conector-inicial-anel-liso.webp",
+    img: "/conector-inicial-anel-liso.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -182,7 +182,7 @@ export const produtosMock = [
     codigo: "96",
     nome: "UNIÃO DE 16MM COM ANÉIS GARRA",
     desc: "Embalagem com 500 unidades",
-    img: "public/uniao-anel-garra.webp",
+    img: "/uniao-anel-garra.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -191,7 +191,7 @@ export const produtosMock = [
     codigo: "97",
     nome: "UNIÃO DE 16MM COM ANÉIS LISO",
     desc: "Embalagem com 500 unidades",
-    img: "public/uniao-anel-liso.webp",
+    img: "/uniao-anel-liso.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -200,7 +200,7 @@ export const produtosMock = [
     codigo: "98",
     nome: "TRANSIÇÃO 16MM P/ 16MM COM ANÉIS LISO E GARRA",
     desc: "Embalagem com 200 unidades",
-    img: "public/transicao-liso-garra.webp",
+    img: "/transicao-liso-garra.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -209,7 +209,7 @@ export const produtosMock = [
     codigo: "99",
     nome: "T 16MM COM ANÉIS GARRA",
     desc: "Embalagem com 200 unidades",
-    img: "public/t-16mm-anel-garra.webp",
+    img: "/t-16mm-anel-garra.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -218,7 +218,7 @@ export const produtosMock = [
     codigo: "100",
     nome: "T 16MM COM ANÉIS LISO",
     desc: "Embalagem com 200 unidades",
-    img: "public/t-16mm-anel-liso.webp",
+    img: "/t-16mm-anel-liso.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -227,7 +227,7 @@ export const produtosMock = [
     codigo: "101",
     nome: "T 16MM COM ANÉIS LISO E GARRA",
     desc: "Embalagem com 200 unidades",
-    img: "public/t-16mm-anel-garra-2-pontas-anel-liso.webp",
+    img: "/t-16mm-anel-garra-2-pontas-anel-liso.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -236,7 +236,7 @@ export const produtosMock = [
     codigo: "102",
     nome: "Y 16MM COM ANÉIS GARRA NAS 3 PONTAS",
     desc: "Embalagem com 200 unidades",
-    img: "public/y-16mm-anel-garra.webp",
+    img: "/y-16mm-anel-garra.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -245,7 +245,7 @@ export const produtosMock = [
     codigo: "103",
     nome: "Y 16MM COM ANÉIS LISO NAS 3 PONTAS",
     desc: "Embalagem com 200 unidades",
-    img: "public/y-16mm-anel-liso.webp",
+    img: "/y-16mm-anel-liso.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -254,7 +254,7 @@ export const produtosMock = [
     codigo: "104",
     nome: "Y 16MM COM ANEL GARRA E 2 PONTAS COM ANÉIS LISO",
     desc: "Embalagem com 200 unidades",
-    img: "public/y-16mm-anel-garra-2-pontas-anel-liso.webp",
+    img: "/y-16mm-anel-garra-2-pontas-anel-liso.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -263,7 +263,7 @@ export const produtosMock = [
     codigo: "105",
     nome: "Y INICIAL 16MM 2 PONTAS COM ANÉIS LISO",
     desc: "Embalagem com 200 unidades",
-    img: "public/y-inicial-16mm-anel-liso.webp",
+    img: "/y-inicial-16mm-anel-liso.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -272,7 +272,7 @@ export const produtosMock = [
     codigo: "106",
     nome: "Y INICIAL 16MM 2 PONTAS COM ANÉIS GARRA",
     desc: "Embalagem com 200 unidades",
-    img: "public/y-inicial-16mm-anel-garra.webp",
+    img: "/y-inicial-16mm-anel-garra.webp",
     undPorEmbalagem: 200,
     undMedida: "unidades"
   },
@@ -281,7 +281,7 @@ export const produtosMock = [
     codigo: "107",
     nome: "JOELHO 16MM COM ANÉIS GARRA",
     desc: "Embalagem com 400 unidades",
-    img: "public/joelho-16mm-anel-garra.webp",
+    img: "/joelho-16mm-anel-garra.webp",
     undPorEmbalagem: 400,
     undMedida: "unidades"
   },
@@ -290,7 +290,7 @@ export const produtosMock = [
     codigo: "108",
     nome: "JOELHO 16MM COM ANÉIS LISO",
     desc: "Embalagem com 400 unidades",
-    img: "public/joelho-16mm-anel-liso.webp",
+    img: "/joelho-16mm-anel-liso.webp",
     undPorEmbalagem: 400,
     undMedida: "unidades"
   },
@@ -299,7 +299,7 @@ export const produtosMock = [
     codigo: "109",
     nome: "JOELHO 16MM COM ANÉIS LISO E GARRA",
     desc: "Embalagem com 400 unidades",
-    img: "public/joelho-16mm-anel-liso-e-garra.webp",
+    img: "/joelho-16mm-anel-liso-e-garra.webp",
     undPorEmbalagem: 400,
     undMedida: "unidades"
   },
@@ -308,7 +308,7 @@ export const produtosMock = [
     codigo: "111",
     nome: "FIM DE LINHA COM ANEL LISO",
     desc: "Embalagem com 500 unidades",
-    img: "public/fim-de-linha-anel-liso.webp",
+    img: "/fim-de-linha-anel-liso.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -317,7 +317,7 @@ export const produtosMock = [
     codigo: "110",
     nome: "FIM DE LINHA COM ANEL GARRA",
     desc: "Embalagem com 500 unidades",
-    img: "public/fim-de-linha-anel-garra.webp",
+    img: "/fim-de-linha-anel-garra.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -326,7 +326,7 @@ export const produtosMock = [
     codigo: "112",
     nome: "TAMPÃO DE 16MM COM ABA PARA CHULA",
     desc: "Embalagem com 500 unidades",
-    img: "public/tampao-com-aba.webp",
+    img: "/tampao-com-aba.webp",
     undPorEmbalagem: 500,
     undMedida: "unidades"
   },
@@ -335,7 +335,7 @@ export const produtosMock = [
     codigo: "53",
     nome: "CONECTOR PARA MICROTUBO 4/5 (MILHEIRO)",
     desc: "Embalagem com 1.000 unidades",
-    img: "public/conector-para-microtubo.webp",
+    img: "/conector-para-microtubo.webp",
     undPorEmbalagem: 1000,
     undMedida: "unidades"
   },
@@ -344,7 +344,7 @@ export const produtosMock = [
     codigo: "113",
     nome: "VÁLVULA ANTI-VÁCUO (VENTOSA) PARA CHULA 16MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/valvula-anti-vacuo-p-chula.webp",
+    img: "/valvula-anti-vacuo-p-chula.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -353,7 +353,7 @@ export const produtosMock = [
     codigo: "1331",
     nome: "MINI GOTEJADOR",
     desc: "Embalagem com 100 unidades",
-    img: "public/mini-gotejador.webp",
+    img: "/mini-gotejador.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
@@ -362,7 +362,7 @@ export const produtosMock = [
     codigo: "114",
     nome: "REGISTRO INICIAL 16MM COM ANEL LISO",
     desc: "Embalagem com 100 unidades",
-    img: "public/registro-inicial-16mm-anel-liso.webp",
+    img: "/registro-inicial-16mm-anel-liso.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
@@ -371,7 +371,7 @@ export const produtosMock = [
     codigo: "115",
     nome: "REGISTRO INICIAL 16MM COM ANEL GARRA",
     desc: "Embalagem com 100 unidades",
-    img: "public/registro-inicial-16mm-anel-garra.webp",
+    img: "/registro-inicial-16mm-anel-garra.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
@@ -380,7 +380,7 @@ export const produtosMock = [
     codigo: "116",
     nome: "REGISTRO UNIÃO 16MM COM ANEL LISO",
     desc: "Embalagem com 100 unidades",
-    img: "public/registro-uniao-16mm-anel-liso.webp",
+    img: "/registro-uniao-16mm-anel-liso.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
@@ -389,7 +389,7 @@ export const produtosMock = [
     codigo: "117",
     nome: "REGISTRO UNIÃO 16MM COM ANEL GARRA",
     desc: "Embalagem com 100 unidades",
-    img: "public/registro-uniao-16-mm-anel-garra.webp",
+    img: "/registro-uniao-16-mm-anel-garra.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
@@ -398,7 +398,7 @@ export const produtosMock = [
     codigo: "153",
     nome: "REGISTRO UNIÃO 16MM COM ANÉIS LISO E GARRA",
     desc: "Embalagem com 100 unidades",
-    img: "public/registro-uniao-16mm-anel-liso-e-garra.webp",
+    img: "/registro-uniao-16mm-anel-liso-e-garra.webp",
     undPorEmbalagem: 100,
     undMedida: "unidades"
   },
@@ -407,7 +407,7 @@ export const produtosMock = [
     codigo: "1347",
     nome: "VENTOSA DUPLO EFEITO ROSCA 1' ",
     desc: "Embalagem com 10 unidades",
-    img: "public/ventosa-duplo-efeito.webp",
+    img: "/ventosa-duplo-efeito.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -416,7 +416,7 @@ export const produtosMock = [
     codigo: "1355",
     nome: "VENTOSA DUPLO EFEITO ROSCA 3/4' ",
     desc: "Embalagem com 10 unidades",
-    img: "public/ventosa-duplo-efeito.webp",
+    img: "/ventosa-duplo-efeito.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -425,7 +425,7 @@ export const produtosMock = [
     codigo: "118",
     nome: "ADAPTADOR ESPIGÃO C/ ROSCA EXT. 1' ",
     desc: "Embalagem com 25 unidades",
-    img: "public/adaptador-espigao-c-rosca-1-pol.webp",
+    img: "/adaptador-espigao-c-rosca-1-pol.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -434,7 +434,7 @@ export const produtosMock = [
     codigo: "119",
     nome: "ADAPTADOR ESPIGÃO C/ ROSCA EXT. 1 x 3/4' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/adaptador-espigao-c-rosca-1-pol.webp",
+    img: "/adaptador-espigao-c-rosca-1-pol.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -443,7 +443,7 @@ export const produtosMock = [
     codigo: "120",
     nome: "ADAPTADOR ESPIGÃO C/ ROSCA EXT. 1 x 1/2' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/adaptador-espigao-c-rosca-1-pol.webp",
+    img: "/adaptador-espigao-c-rosca-1-pol.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -452,7 +452,7 @@ export const produtosMock = [
     codigo: "121",
     nome: "ADAPTADOR ESPIGÃO C/ ROSCA EXT. 3/4 x 1/2' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/adaptador-espigao-c-rosca-1-pol.webp",
+    img: "/adaptador-espigao-c-rosca-1-pol.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -461,7 +461,7 @@ export const produtosMock = [
     codigo: "122",
     nome: "ADAPTADOR ESPIGÃO C/ ROSCA EXT. 3/4 x 1' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/adaptador-espigao-c-rosca-1-pol.webp",
+    img: "/adaptador-espigao-c-rosca-1-pol.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -470,7 +470,7 @@ export const produtosMock = [
     codigo: "123",
     nome: "ADAPTADOR ESPIGÃO C/ ROSCA EXT. 3/4' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/adaptador-espigao-c-rosca-1-pol.webp",
+    img: "/adaptador-espigao-c-rosca-1-pol.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -479,7 +479,7 @@ export const produtosMock = [
     codigo: "124",
     nome: "JOELHO 90° SOLDÁVEL DN 20MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/joelho-25mm.webp",
+    img: "/joelho-25mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -488,7 +488,7 @@ export const produtosMock = [
     codigo: "125",
     nome: "JOELHO 90° SOLDÁVEL DN 25MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/joelho-25mm.webp",
+    img: "/joelho-25mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -497,7 +497,7 @@ export const produtosMock = [
     codigo: "1401",
     nome: "JOELHO 90° SOLDÁVEL DN 32MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/joelho-25mm.webp",
+    img: "/joelho-25mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -506,7 +506,7 @@ export const produtosMock = [
     codigo: "125",
     nome: "JOELHO 90° SOLDÁVEL DN 50MM",
     desc: "Embalagem com 10 unidades",
-    img: "public/joelho-25mm.webp",
+    img: "/joelho-25mm.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -515,7 +515,7 @@ export const produtosMock = [
     codigo: "127",
     nome: "JOELHO 45° SOLDÁVEL DN 35MM",
     desc: "Embalagem com 25 unidades",
-    img: "public/joelho-45-35mm.webp",
+    img: "/joelho-45-35mm.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -524,7 +524,7 @@ export const produtosMock = [
     codigo: "1404",
     nome: "JOELHO 45° SOLDÁVEL DN 50MM",
     desc: "Embalagem com 10 unidades",
-    img: "public/joelho-45-35mm.webp",
+    img: "/joelho-45-35mm.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -533,7 +533,7 @@ export const produtosMock = [
     codigo: "129",
     nome: "JOELHO 90° REDUÇÃO SOLDÁVEL DN 25 x 20",
     desc: "Embalagem com 50 unidades",
-    img: "public/joelho-reducao-soldavel-25x20mm.webp",
+    img: "/joelho-reducao-soldavel-25x20mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -542,7 +542,7 @@ export const produtosMock = [
     codigo: "130",
     nome: "LUVA IRRIGA SOLDÁVEL DN 20MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/luva-irriga-soldavel-dn-50mm.webp",
+    img: "/luva-irriga-soldavel-dn-50mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -551,7 +551,7 @@ export const produtosMock = [
     codigo: "131",
     nome: "LUVA IRRIGA SOLDÁVEL DN 25MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/luva-irriga-soldavel-dn-50mm.webp",
+    img: "/luva-irriga-soldavel-dn-50mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -560,7 +560,7 @@ export const produtosMock = [
     codigo: "132",
     nome: "LUVA IRRIGA SOLDÁVEL DN 35MM",
     desc: "Embalagem com 25 unidades",
-    img: "public/luva-irriga-soldavel-dn-50mm.webp",
+    img: "/luva-irriga-soldavel-dn-50mm.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -569,7 +569,7 @@ export const produtosMock = [
     codigo: "1399",
     nome: "LUVA IRRIGA SOLDÁVEL DN 50MM",
     desc: "Embalagem com 10 unidades",
-    img: "public/luva-irriga-soldavel-dn-50mm.webp",
+    img: "/luva-irriga-soldavel-dn-50mm.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -578,7 +578,7 @@ export const produtosMock = [
     codigo: "133",
     nome: "LUVA DE REDUÇÃO SOLDÁVEL DN 25 x 20",
     desc: "Embalagem com 50 unidades",
-    img: "public/luva-reducao-soldavel.webp",
+    img: "/luva-reducao-soldavel.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -587,7 +587,7 @@ export const produtosMock = [
     codigo: "1476",
     nome: "LUVA DE 20MM x 1/2' ROSCA EXTERNA",
     desc: "Embalagem com 50 unidades",
-    img: "public/luva-reducao-roscavel-32x1pol.webp",
+    img: "/luva-reducao-roscavel-32x1pol.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -596,7 +596,7 @@ export const produtosMock = [
     codigo: "134",
     nome: "LUVA DE 25MM x 3/4' ROSCA EXTERNA",
     desc: "Embalagem com 50 unidades",
-    img: "public/luva-roscavel-25x3.4.webp",
+    img: "/luva-roscavel-25x3.4.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -605,7 +605,7 @@ export const produtosMock = [
     codigo: "1341",
     nome: "LUVA DE 32MM x 1' ROSCA EXTERNA",
     desc: "Embalagem com 25 unidades",
-    img: "public/luva-reducao-roscavel-32x1pol.webp",
+    img: "/luva-reducao-roscavel-32x1pol.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -614,7 +614,7 @@ export const produtosMock = [
     codigo: "1349",
     nome: "LUVA DE 50 X 1.1/2' ROSCA EXTERNA",
     desc: "Embalagem com 10 unidades",
-    img: "public/luva-roscavel-50x1-1.2pol.webp",
+    img: "/luva-roscavel-50x1-1.2pol.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -623,7 +623,7 @@ export const produtosMock = [
     codigo: "135",
     nome: "TE SOLDÁVEL DN 20MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/tee-20mm.webp",
+    img: "/tee-20mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -632,7 +632,7 @@ export const produtosMock = [
     codigo: "135",
     nome: "TE SOLDÁVEL DN 25MM",
     desc: "Embalagem com 25 unidades",
-    img: "public/tee-20mm.webp",
+    img: "/tee-20mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -641,7 +641,7 @@ export const produtosMock = [
     codigo: "1461",
     nome: "TE SOLDÁVEL DN 32MM",
     desc: "Embalagem com 25 unidades",
-    img: "public/tee-soldavel-50mm.webp",
+    img: "/tee-soldavel-50mm.webp",
     undPorEmbalagem: 25,
     undMedida: "unidades"
   },
@@ -650,7 +650,7 @@ export const produtosMock = [
     codigo: "1477",
     nome: "TE SOLDÁVEL DN 35MM",
     desc: "Embalagem com 10 unidades",
-    img: "public/tee-soldavel-50mm.webp",
+    img: "/tee-soldavel-50mm.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -659,7 +659,7 @@ export const produtosMock = [
     codigo: "137",
     nome: "TE SOLDÁVEL DN 50MM",
     desc: "Embalagem com 10 unidades",
-    img: "public/tee-soldavel-50mm.webp",
+    img: "/tee-soldavel-50mm.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -668,7 +668,7 @@ export const produtosMock = [
     codigo: "138",
     nome: "TE REDUÇÃO SOLDÁVEL DN 25 X 20MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/tee-reducao-soldavel-25x20mm.webp",
+    img: "/tee-reducao-soldavel-25x20mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -677,7 +677,7 @@ export const produtosMock = [
     codigo: "139",
     nome: "TE REDUÇÃO SOLDÁVEL DN 32 X 25MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/tee-reducao-soldavel-25x20mm.webp",
+    img: "/tee-reducao-soldavel-25x20mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -686,7 +686,7 @@ export const produtosMock = [
     codigo: "140",
     nome: "TE REDUÇÃO SOLDÁVEL DN 50 X 25MM",
     desc: "Embalagem com 10 unidades",
-    img: "public/tee-reducao-soldavel-50x25mm.webp",
+    img: "/tee-reducao-soldavel-50x25mm.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -695,7 +695,7 @@ export const produtosMock = [
     codigo: "141",
     nome: "CURVA IRRI DN 50MM",
     desc: "Embalagem com 10 unidades",
-    img: "public/curva-irri-90graus-soldavel-50mm.webp",
+    img: "/curva-irri-90graus-soldavel-50mm.webp",
     undPorEmbalagem: 10,
     undMedida: "unidades"
   },
@@ -704,7 +704,7 @@ export const produtosMock = [
     codigo: "142",
     nome: "PLUG ROSCÁVEL 1/2' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/plug-roscavel-1.2.webp",
+    img: "/plug-roscavel-1.2.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -713,7 +713,7 @@ export const produtosMock = [
     codigo: "1475",
     nome: "PLUG ROSCÁVEL 3/4' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/plug-roscavel-1.2.webp",
+    img: "/plug-roscavel-1.2.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -722,7 +722,7 @@ export const produtosMock = [
     codigo: "143",
     nome: "NÍPEL 3/4' ",
     desc: "Embalagem com 50 unidades",
-    img: "public/nipel-roscavel-3.4.webp",
+    img: "/nipel-roscavel-3.4.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -731,7 +731,7 @@ export const produtosMock = [
     codigo: "1478",
     nome: "BUCHA DE REDUÇÃO SOLDÁVEL 3/4 X 1/2 ",
     desc: "Embalagem com 50 unidades",
-    img: "public/bucha-reducao-roscavel.webp",
+    img: "/bucha-reducao-roscavel.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -740,7 +740,7 @@ export const produtosMock = [
     codigo: "1203",
     nome: "CAP 25MM",
     desc: "Embalagem com 50 unidades",
-    img: "public/cap-25mm.webp",
+    img: "/cap-25mm.webp",
     undPorEmbalagem: 50,
     undMedida: "unidades"
   },
@@ -749,7 +749,7 @@ export const produtosMock = [
     codigo: "57",
     nome: "MANGUEIRA 16MM C/ 500MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -758,7 +758,7 @@ export const produtosMock = [
     codigo: "58",
     nome: "MANGUEIRA 16MM C/ 200MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -767,7 +767,7 @@ export const produtosMock = [
     codigo: "61",
     nome: "MANGUEIRA 1/2 C/ 100MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -776,7 +776,7 @@ export const produtosMock = [
     codigo: "60",
     nome: "MANGUEIRA 3/4 C/ 100MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -785,7 +785,7 @@ export const produtosMock = [
     codigo: "59",
     nome: "MANGUEIRA 1\" C/ 100MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -794,7 +794,7 @@ export const produtosMock = [
     codigo: "62",
     nome: "MANGUEIRA 1.1/2\" C/ 50MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -803,7 +803,7 @@ export const produtosMock = [
     codigo: "63",
     nome: "MANGUEIRA 1.1/4\" C/ 50MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -812,7 +812,7 @@ export const produtosMock = [
     codigo: "1165",
     nome: "MANGUEIRA 1\" X 3.0MM C/ 100MTS",
     desc: "1 Unidade de bobina",
-    img: "public/mangueira-polietileno.webp",
+    img: "/mangueira-polietileno.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -821,7 +821,7 @@ export const produtosMock = [
     codigo: "64",
     nome: "TUBO PEBDA DE 40MM (TUBO PRETO)",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-pebda.webp",
+    img: "/tubo-pebda.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -830,7 +830,7 @@ export const produtosMock = [
     codigo: "69",
     nome: "TUBO PVC RÍG. PN60 20MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -839,7 +839,7 @@ export const produtosMock = [
     codigo: "70",
     nome: "TUBO PVC RÍG. PN60 25MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -848,7 +848,7 @@ export const produtosMock = [
     codigo: "71",
     nome: "TUBO PVC RÍG. PN60 32MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -857,7 +857,7 @@ export const produtosMock = [
     codigo: "65",
     nome: "TUBO PVC RÍG. PN40 35MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -866,7 +866,7 @@ export const produtosMock = [
     codigo: "66",
     nome: "TUBO PVC RÍG. PN40 50MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -875,7 +875,7 @@ export const produtosMock = [
     codigo: "75",
     nome: "TUBO PVC RÍG. PN80 50MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -884,7 +884,7 @@ export const produtosMock = [
     codigo: "67",
     nome: "TUBO PVC RÍG. PN40 75MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -893,7 +893,7 @@ export const produtosMock = [
     codigo: "76",
     nome: "TUBO PVC RÍG. PN80 75MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -902,7 +902,7 @@ export const produtosMock = [
     codigo: "68",
     nome: "TUBO PVC RÍG. PN40 100MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -911,7 +911,7 @@ export const produtosMock = [
     codigo: "77",
     nome: "TUBO PVC RÍG. PN80 100MM C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-rigido.webp",
+    img: "/tubo-rigido.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -920,7 +920,7 @@ export const produtosMock = [
     codigo: "78",
     nome: "TUBO PVC ROSCÁVEL 1\" C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-roscavel.webp",
+    img: "/tubo-roscavel.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -929,7 +929,7 @@ export const produtosMock = [
     codigo: "79",
     nome: "TUBO PVC ROSCÁVEL 1.1/4\" C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-roscavel.webp",
+    img: "/tubo-roscavel.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -938,7 +938,7 @@ export const produtosMock = [
     codigo: "1311",
     nome: "TUBO PVC ROSCÁVEL 1.1/2\" C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-roscavel.webp",
+    img: "/tubo-roscavel.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   },
@@ -947,7 +947,7 @@ export const produtosMock = [
     codigo: "1312",
     nome: "TUBO PVC ROSCÁVEL 2\" C/ 6MTS",
     desc: "1 Unidade de tubo",
-    img: "public/tubo-roscavel.webp",
+    img: "/tubo-roscavel.webp",
     undPorEmbalagem: 1,
     undMedida: "unidades"
   }
